@@ -7,18 +7,23 @@
 </head>
 <body>
 
-<h1>Hoş Geldiniz</h1>
+<div class="container">
+    <h1>Hoş Geldiniz</h1>
 
-<ul>
-    <li><a href="index.html">Anasayfa</a></li>
-    <li><a href="about.html">Hakkımda</a></li>
-    <li><a href="contact.html">İletişim</a></li>
-</ul>
+    <ul class="menu">
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="about.html">Hakkımda</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+    </ul>
 
-<p>Merhaba, ben Arif Can Bora. Numaram 25120205101. </p>
-<p>İstanbul Medeniyet üniversitesinde Bilgisayar Mühendisliği bölümünü okuyorum.</p>
+    <div class="content">
+        <p>Merhaba, ben <strong>Arif Can Bora</strong>.</p>
+        <p>Öğrenci numaram: <strong>25120205101</strong>.</p>
+        <p>İstanbul Medeniyet Üniversitesi'nde <strong>Bilgisayar Mühendisliği</strong> bölümünü okuyorum.</p>
+    </div>
 
-<button onclick="mesajGoster()">Tıkla</button>
+    <button id="welcomeBtn">Tıkla</button>
+</div>
 
 <script src="js/script.js"></script>
 </body>
