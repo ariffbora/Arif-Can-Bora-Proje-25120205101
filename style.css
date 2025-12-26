@@ -2,76 +2,88 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f4f8;
+    background-color: #e8edf3;
     color: #333;
 }
 
 h1 {
     text-align: center;
-    color: #2c3e50;
+    color: #2d3e50;
     margin-top: 30px;
 }
 
 ul {
     list-style: none;
     padding: 0;
-    background-color: #3498db;
+    background-color: #3480c0;
     text-align: center;
     margin-top: 20px;
 }
 
 ul li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 12px;
 }
 
 ul li a {
     text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 10px 15px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 14px;
     display: inline-block;
-    transition: background-color 0.3s;
+    transition: all 0.25s ease;
 }
 
 ul li a:hover {
-    background-color: #2980b9;
-    border-radius: 5px;
+    background-color: #2c6aa0;
+    border-radius: 4px;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 750px;
     margin: 30px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 input, textarea {
     width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    padding: 9px;
+    margin: 7px 0;
+    border-radius: 4px;
+    border: 1px solid #bbb;
     box-sizing: border-box;
+    font-size: 14px;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #3498db;
+    padding: 10px 18px;
+    background-color: #3480c0;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
-    transition: background-color 0.3s;
+    font-size: 15px;
+    transition: background-color 0.25s;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #2c6aa0;
 }
 
 ul li.list-item {
     margin-bottom: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    ul li {
+        display: block;
+        margin: 5px 0;
+    }
+    button {
+        width: 100%;
+    }
 }
